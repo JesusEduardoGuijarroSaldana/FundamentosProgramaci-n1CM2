@@ -3,7 +3,7 @@
     <type>org.netbeans.modules.cnd.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>Operaciones(Clase3Nov2020)</name>
+            <name>Mayor de 3 y 4 números</name>
             <c-extensions>c</c-extensions>
             <cpp-extensions/>
             <header-extensions/>
