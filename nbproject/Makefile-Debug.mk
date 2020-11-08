@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/main.o
+	${OBJECTDIR}/Mayor\ de\ 3\ y\ 4\ números.o
 
 
 # C Compiler Flags
@@ -62,10 +62,11 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hola_mundo.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hola_mundo ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/main.o: main.c 
+.NO_PARALLEL:${OBJECTDIR}/Mayor\ de\ 3\ y\ 4\ números.o
+${OBJECTDIR}/Mayor\ de\ 3\ y\ 4\ números.o: Mayor\ de\ 3\ y\ 4\ números.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Mayor\ de\ 3\ y\ 4\ números.o Mayor\ de\ 3\ y\ 4\ números.c
 
 # Subprojects
 .build-subprojects:
