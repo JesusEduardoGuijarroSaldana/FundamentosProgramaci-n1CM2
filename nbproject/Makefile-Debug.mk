@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Mayor\ de\ 3\ y\ 4\ números.o
+	${OBJECTDIR}/4Mayorde4NumerosIF.o
 
 
 # C Compiler Flags
@@ -56,17 +56,16 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hola_mundo.exe
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programaci_n.exe
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hola_mundo.exe: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programaci_n.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hola_mundo ${OBJECTFILES} ${LDLIBSOPTIONS}
+	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programaci_n ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-.NO_PARALLEL:${OBJECTDIR}/Mayor\ de\ 3\ y\ 4\ números.o
-${OBJECTDIR}/Mayor\ de\ 3\ y\ 4\ números.o: Mayor\ de\ 3\ y\ 4\ números.c 
+${OBJECTDIR}/4Mayorde4NumerosIF.o: 4Mayorde4NumerosIF.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Mayor\ de\ 3\ y\ 4\ números.o Mayor\ de\ 3\ y\ 4\ números.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/4Mayorde4NumerosIF.o 4Mayorde4NumerosIF.c
 
 # Subprojects
 .build-subprojects:
@@ -74,7 +73,7 @@ ${OBJECTDIR}/Mayor\ de\ 3\ y\ 4\ números.o: Mayor\ de\ 3\ y\ 4\ números.c
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
-	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hola_mundo.exe
+	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programaci_n.exe
 
 # Subprojects
 .clean-subprojects:

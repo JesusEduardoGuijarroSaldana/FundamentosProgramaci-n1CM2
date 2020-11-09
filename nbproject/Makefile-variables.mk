@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=hola_mundo
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/hola_mundo
+CND_ARTIFACT_NAME_Debug=fundamentos_de_programaci_n
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/fundamentos_de_programaci_n
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=holamundo.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/holamundo.tar
+CND_PACKAGE_NAME_Debug=fundamentosdeprogramación.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/fundamentosdeprogramación.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=hola_mundo
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/hola_mundo
+CND_ARTIFACT_NAME_Release=fundamentos_de_programaci_n
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/fundamentos_de_programaci_n
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=holamundo.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/holamundo.tar
+CND_PACKAGE_NAME_Release=fundamentosdeprogramación.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/fundamentosdeprogramación.tar
 #
 # include compiler specific variables
 #
