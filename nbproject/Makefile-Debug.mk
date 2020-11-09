@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/4Mayorde4NumerosIF.o
+	${OBJECTDIR}/2OperacionesClase3Nov2020.o
 
 
 # C Compiler Flags
@@ -62,10 +62,10 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programaci_n.exe: ${OB
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programaci_n ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/4Mayorde4NumerosIF.o: 4Mayorde4NumerosIF.c 
+${OBJECTDIR}/2OperacionesClase3Nov2020.o: 2OperacionesClase3Nov2020.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/4Mayorde4NumerosIF.o 4Mayorde4NumerosIF.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/2OperacionesClase3Nov2020.o 2OperacionesClase3Nov2020.c
 
 # Subprojects
 .build-subprojects:
