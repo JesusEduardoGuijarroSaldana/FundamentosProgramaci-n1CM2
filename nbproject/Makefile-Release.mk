@@ -37,8 +37,9 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/1HolaMundo.o \
 	${OBJECTDIR}/2OperacionesClase3Nov2020.o \
-	${OBJECTDIR}/3Mayorde3NumerosIF.o \
-	${OBJECTDIR}/4Mayorde4NumerosIF.o
+	${OBJECTDIR}/3Mayorde3NumerosFuncionIF.o \
+	${OBJECTDIR}/4Mayorde4NumerosFuncionIF.o \
+	${OBJECTDIR}/5SerieFibonacciFuncionWhile.o
 
 
 # C Compiler Flags
@@ -75,15 +76,20 @@ ${OBJECTDIR}/2OperacionesClase3Nov2020.o: 2OperacionesClase3Nov2020.c
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/2OperacionesClase3Nov2020.o 2OperacionesClase3Nov2020.c
 
-${OBJECTDIR}/3Mayorde3NumerosIF.o: 3Mayorde3NumerosIF.c 
+${OBJECTDIR}/3Mayorde3NumerosFuncionIF.o: 3Mayorde3NumerosFuncionIF.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/3Mayorde3NumerosIF.o 3Mayorde3NumerosIF.c
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/3Mayorde3NumerosFuncionIF.o 3Mayorde3NumerosFuncionIF.c
 
-${OBJECTDIR}/4Mayorde4NumerosIF.o: 4Mayorde4NumerosIF.c 
+${OBJECTDIR}/4Mayorde4NumerosFuncionIF.o: 4Mayorde4NumerosFuncionIF.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/4Mayorde4NumerosIF.o 4Mayorde4NumerosIF.c
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/4Mayorde4NumerosFuncionIF.o 4Mayorde4NumerosFuncionIF.c
+
+${OBJECTDIR}/5SerieFibonacciFuncionWhile.o: 5SerieFibonacciFuncionWhile.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/5SerieFibonacciFuncionWhile.o 5SerieFibonacciFuncionWhile.c
 
 # Subprojects
 .build-subprojects:
