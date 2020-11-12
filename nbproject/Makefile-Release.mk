@@ -39,7 +39,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/2OperacionesClase3Nov2020.o \
 	${OBJECTDIR}/3Mayorde3NumerosFuncionIF.o \
 	${OBJECTDIR}/4Mayorde4NumerosFuncionIF.o \
-	${OBJECTDIR}/5SerieFibonacciFuncionWhile.o
+	${OBJECTDIR}/5SerieFibonacciFuncionWhile.o \
+	${OBJECTDIR}/6Tablas1al10While.o
 
 
 # C Compiler Flags
@@ -90,6 +91,11 @@ ${OBJECTDIR}/5SerieFibonacciFuncionWhile.o: 5SerieFibonacciFuncionWhile.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/5SerieFibonacciFuncionWhile.o 5SerieFibonacciFuncionWhile.c
+
+${OBJECTDIR}/6Tablas1al10While.o: 6Tablas1al10While.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/6Tablas1al10While.o 6Tablas1al10While.c
 
 # Subprojects
 .build-subprojects:
