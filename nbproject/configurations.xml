@@ -18,6 +18,8 @@
       <itemPath>4Mayorde4NumerosFuncionIF.c</itemPath>
       <itemPath>5SerieFibonacciFuncionWhile.c</itemPath>
       <itemPath>6Tablas1al10While.c</itemPath>
+      <itemPath>7Tablas1al10conFor.c</itemPath>
+      <itemPath>8Arreglos.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -41,7 +43,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="6Tablas1al10While.c" ex="false" tool="0" flavor2="0">
+      <item path="8Arreglos.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -75,6 +77,10 @@
       <item path="5SerieFibonacciFuncionWhile.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="6Tablas1al10While.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="7Tablas1al10conFor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="8Arreglos.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>

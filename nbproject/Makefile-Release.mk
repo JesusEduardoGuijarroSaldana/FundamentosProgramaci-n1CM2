@@ -40,7 +40,9 @@ OBJECTFILES= \
 	${OBJECTDIR}/3Mayorde3NumerosFuncionIF.o \
 	${OBJECTDIR}/4Mayorde4NumerosFuncionIF.o \
 	${OBJECTDIR}/5SerieFibonacciFuncionWhile.o \
-	${OBJECTDIR}/6Tablas1al10While.o
+	${OBJECTDIR}/6Tablas1al10While.o \
+	${OBJECTDIR}/7Tablas1al10conFor.o \
+	${OBJECTDIR}/8Arreglos.o
 
 
 # C Compiler Flags
@@ -96,6 +98,16 @@ ${OBJECTDIR}/6Tablas1al10While.o: 6Tablas1al10While.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/6Tablas1al10While.o 6Tablas1al10While.c
+
+${OBJECTDIR}/7Tablas1al10conFor.o: 7Tablas1al10conFor.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/7Tablas1al10conFor.o 7Tablas1al10conFor.c
+
+${OBJECTDIR}/8Arreglos.o: 8Arreglos.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/8Arreglos.o 8Arreglos.c
 
 # Subprojects
 .build-subprojects:

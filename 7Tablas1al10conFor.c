@@ -13,7 +13,7 @@ int main(int argc, char** argv) {
     int x;
     int y;
     
-    for (x=1;x<11;){
+    for (x=1;x<11;x = x+1){
         printf ("Tabla del %d\n", x);
         
         for (y=1;y<11;y = y +1){
@@ -21,7 +21,6 @@ int main(int argc, char** argv) {
         
         }
     
-    x = x+1;
     y = 1;
     }
 
