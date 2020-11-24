@@ -12,6 +12,9 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>10DatosaPromediar.c</itemPath>
+      <itemPath>11NumeroMayoryMenor.c</itemPath>
+      <itemPath>12MetodoBurbuja.c</itemPath>
       <itemPath>1HolaMundo.c</itemPath>
       <itemPath>2OperacionesClase3Nov2020.c</itemPath>
       <itemPath>3Mayorde3NumerosFuncionIF.c</itemPath>
@@ -20,6 +23,7 @@
       <itemPath>6Tablas1al10While.c</itemPath>
       <itemPath>7Tablas1al10conFor.c</itemPath>
       <itemPath>8Arreglos.c</itemPath>
+      <itemPath>9Arreglos.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -43,7 +47,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="8Arreglos.c" ex="false" tool="0" flavor2="0">
+      <item path="12MetodoBurbuja.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -66,6 +70,12 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="10DatosaPromediar.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="11NumeroMayoryMenor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="12MetodoBurbuja.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="1HolaMundo.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="2OperacionesClase3Nov2020.c" ex="false" tool="0" flavor2="0">
@@ -81,6 +91,8 @@
       <item path="7Tablas1al10conFor.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="8Arreglos.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="9Arreglos.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>
