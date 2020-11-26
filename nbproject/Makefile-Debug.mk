@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/12MetodoBurbuja.o
+	${OBJECTDIR}/13MetodoBurbujaMejorado.o
 
 
 # C Compiler Flags
@@ -62,10 +62,10 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programaci_n.exe: ${OB
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programaci_n ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/12MetodoBurbuja.o: 12MetodoBurbuja.c 
+${OBJECTDIR}/13MetodoBurbujaMejorado.o: 13MetodoBurbujaMejorado.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/12MetodoBurbuja.o 12MetodoBurbuja.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/13MetodoBurbujaMejorado.o 13MetodoBurbujaMejorado.c
 
 # Subprojects
 .build-subprojects:

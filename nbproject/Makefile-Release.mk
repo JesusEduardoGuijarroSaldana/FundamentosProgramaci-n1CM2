@@ -38,6 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/10DatosaPromediar.o \
 	${OBJECTDIR}/11NumeroMayoryMenor.o \
 	${OBJECTDIR}/12MetodoBurbuja.o \
+	${OBJECTDIR}/13MetodoBurbujaMejorado.o \
 	${OBJECTDIR}/1HolaMundo.o \
 	${OBJECTDIR}/2OperacionesClase3Nov2020.o \
 	${OBJECTDIR}/3Mayorde3NumerosFuncionIF.o \
@@ -87,6 +88,11 @@ ${OBJECTDIR}/12MetodoBurbuja.o: 12MetodoBurbuja.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/12MetodoBurbuja.o 12MetodoBurbuja.c
+
+${OBJECTDIR}/13MetodoBurbujaMejorado.o: 13MetodoBurbujaMejorado.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/13MetodoBurbujaMejorado.o 13MetodoBurbujaMejorado.c
 
 ${OBJECTDIR}/1HolaMundo.o: 1HolaMundo.c 
 	${MKDIR} -p ${OBJECTDIR}

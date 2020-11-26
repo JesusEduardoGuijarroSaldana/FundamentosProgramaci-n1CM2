@@ -15,6 +15,7 @@
       <itemPath>10DatosaPromediar.c</itemPath>
       <itemPath>11NumeroMayoryMenor.c</itemPath>
       <itemPath>12MetodoBurbuja.c</itemPath>
+      <itemPath>13MetodoBurbujaMejorado.c</itemPath>
       <itemPath>1HolaMundo.c</itemPath>
       <itemPath>2OperacionesClase3Nov2020.c</itemPath>
       <itemPath>3Mayorde3NumerosFuncionIF.c</itemPath>
@@ -47,7 +48,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="12MetodoBurbuja.c" ex="false" tool="0" flavor2="0">
+      <item path="13MetodoBurbujaMejorado.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -75,6 +76,8 @@
       <item path="11NumeroMayoryMenor.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="12MetodoBurbuja.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="13MetodoBurbujaMejorado.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="1HolaMundo.c" ex="false" tool="0" flavor2="0">
       </item>
