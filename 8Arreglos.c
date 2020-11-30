@@ -13,7 +13,6 @@
  */
 int main(int argc, char** argv) {
     int arreglo[100];
-    int suma;
     int i;
   
     arreglo [0] = 2;
