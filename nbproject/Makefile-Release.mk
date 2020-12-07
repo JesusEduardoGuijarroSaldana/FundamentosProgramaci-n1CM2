@@ -40,6 +40,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/12MetodoBurbuja.o \
 	${OBJECTDIR}/13MetodoBurbujaMejorado.o \
 	${OBJECTDIR}/14FuncionesMath.o \
+	${OBJECTDIR}/15ConversionesdeTemperaturas.o \
 	${OBJECTDIR}/1HolaMundo.o \
 	${OBJECTDIR}/2OperacionesClase3Nov2020.o \
 	${OBJECTDIR}/3Mayorde3NumerosFuncionIF.o \
@@ -99,6 +100,11 @@ ${OBJECTDIR}/14FuncionesMath.o: 14FuncionesMath.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/14FuncionesMath.o 14FuncionesMath.c
+
+${OBJECTDIR}/15ConversionesdeTemperaturas.o: 15ConversionesdeTemperaturas.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/15ConversionesdeTemperaturas.o 15ConversionesdeTemperaturas.c
 
 ${OBJECTDIR}/1HolaMundo.o: 1HolaMundo.c 
 	${MKDIR} -p ${OBJECTDIR}
