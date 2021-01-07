@@ -1,0 +1,2 @@
+build/Debug/Cygwin-Windows/31CuadernilloIntercambiodelValordeDosVariables.o: \
+ 31CuadernilloIntercambiodelValordeDosVariables.c
