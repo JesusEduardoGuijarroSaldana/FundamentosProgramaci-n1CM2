@@ -69,6 +69,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/39CuadernilloModicarVariableConPunteros.o \
 	${OBJECTDIR}/3Mayorde3NumerosFuncionIF.o \
 	${OBJECTDIR}/40CuadernilloSumaraVariableConPunteros.o \
+	${OBJECTDIR}/41ArraysyCadenas.o \
 	${OBJECTDIR}/4Mayorde4NumerosFuncionIF.o \
 	${OBJECTDIR}/5SerieFibonacciFuncionWhile.o \
 	${OBJECTDIR}/6Tablas1al10While.o \
@@ -270,6 +271,11 @@ ${OBJECTDIR}/40CuadernilloSumaraVariableConPunteros.o: 40CuadernilloSumaraVariab
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/40CuadernilloSumaraVariableConPunteros.o 40CuadernilloSumaraVariableConPunteros.c
+
+${OBJECTDIR}/41ArraysyCadenas.o: 41ArraysyCadenas.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/41ArraysyCadenas.o 41ArraysyCadenas.c
 
 ${OBJECTDIR}/4Mayorde4NumerosFuncionIF.o: 4Mayorde4NumerosFuncionIF.c 
 	${MKDIR} -p ${OBJECTDIR}
