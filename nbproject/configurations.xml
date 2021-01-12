@@ -47,6 +47,7 @@
       <itemPath>3Mayorde3NumerosFuncionIF.c</itemPath>
       <itemPath>40CuadernilloSumaraVariableConPunteros.c</itemPath>
       <itemPath>41ArraysyCadenas.c</itemPath>
+      <itemPath>42CantidadLetrasDeCadena.c</itemPath>
       <itemPath>4Mayorde4NumerosFuncionIF.c</itemPath>
       <itemPath>5SerieFibonacciFuncionWhile.c</itemPath>
       <itemPath>6Tablas1al10While.c</itemPath>
@@ -76,7 +77,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="41ArraysyCadenas.c" ex="false" tool="0" flavor2="0">
+      <item path="42CantidadLetrasDeCadena.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -195,6 +196,8 @@
             flavor2="0">
       </item>
       <item path="41ArraysyCadenas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="42CantidadLetrasDeCadena.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="4Mayorde4NumerosFuncionIF.c" ex="false" tool="0" flavor2="0">
       </item>
