@@ -71,6 +71,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/40CuadernilloSumaraVariableConPunteros.o \
 	${OBJECTDIR}/41ArraysyCadenas.o \
 	${OBJECTDIR}/42CantidadLetrasDeCadena.o \
+	${OBJECTDIR}/43Cabecerasnewmain.o \
 	${OBJECTDIR}/4Mayorde4NumerosFuncionIF.o \
 	${OBJECTDIR}/5SerieFibonacciFuncionWhile.o \
 	${OBJECTDIR}/6Tablas1al10While.o \
@@ -282,6 +283,11 @@ ${OBJECTDIR}/42CantidadLetrasDeCadena.o: 42CantidadLetrasDeCadena.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/42CantidadLetrasDeCadena.o 42CantidadLetrasDeCadena.c
+
+${OBJECTDIR}/43Cabecerasnewmain.o: 43Cabecerasnewmain.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/43Cabecerasnewmain.o 43Cabecerasnewmain.c
 
 ${OBJECTDIR}/4Mayorde4NumerosFuncionIF.o: 4Mayorde4NumerosFuncionIF.c 
 	${MKDIR} -p ${OBJECTDIR}

@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/42CantidadLetrasDeCadena.o
+	${OBJECTDIR}/43Cabecerasnewmain.o
 
 
 # C Compiler Flags
@@ -62,10 +62,10 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programaci_n.exe: ${OB
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programaci_n ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/42CantidadLetrasDeCadena.o: 42CantidadLetrasDeCadena.c 
+${OBJECTDIR}/43Cabecerasnewmain.o: 43Cabecerasnewmain.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/42CantidadLetrasDeCadena.o 42CantidadLetrasDeCadena.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/43Cabecerasnewmain.o 43Cabecerasnewmain.c
 
 # Subprojects
 .build-subprojects:
