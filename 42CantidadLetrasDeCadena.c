@@ -11,14 +11,18 @@
 
 
 int main(int argc, char** argv) {
-    //Ejercicio en clase, contar cuántas veces aparece una letra del abecedario en una frase.
+    /*Ejercicio en clase, contar cuántas veces aparece una letra del abecedario 
+    en una frase.*/
     char frase[30];
     int a=0,b=0,c=0,d=0,e=0,f=0,g=0,h=0,i=0,j=0,k=0,l=0,m=0,n=0,o=0,p=0,q=0;
     int r=0,s=0,t=0,u=0,v=0,w=0,x=0,y=0,z=0;
     int contador=0;
     printf("\n\nIngrese la frase que quiere evaluar: ");
-    gets(frase);
-    
+    gets(frase);//guardamos la frase sin espacios con gets.
+    /*switch que evalua cada letra de la cadena con ayuda de un for, y en cada
+     *  caso que encuentre una letra se le suma una unidad, para luego imprimir 
+     * la cantidad 
+     de veces que fue encontrada.*/
     for (contador=0; contador<strlen(frase);contador++){
             switch (frase[contador]){
                 case 'a': a++; break;
@@ -48,7 +52,7 @@ int main(int argc, char** argv) {
                 case 'z': z++; break;
             }
     }
-    
+    //Impresión del resultado.
     printf("\nLetra a: %d ", a);
     printf("\nLetra b: %d ", b);
     printf("\nLetra c: %d ", c);

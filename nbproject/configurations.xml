@@ -50,6 +50,9 @@
       <itemPath>41ArraysyCadenas.c</itemPath>
       <itemPath>42CantidadLetrasDeCadena.c</itemPath>
       <itemPath>43Cabecerasnewmain.c</itemPath>
+      <itemPath>44Ficheros.c</itemPath>
+      <itemPath>45FibonacciRecursividad.c</itemPath>
+      <itemPath>46FibonacciRecursividad2.c</itemPath>
       <itemPath>4Mayorde4NumerosFuncionIF.c</itemPath>
       <itemPath>5SerieFibonacciFuncionWhile.c</itemPath>
       <itemPath>6Tablas1al10While.c</itemPath>
@@ -79,7 +82,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="43Cabecerasnewmain.c" ex="false" tool="0" flavor2="0">
+      <item path="44Ficheros.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="funciones2.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -204,6 +207,12 @@
       <item path="42CantidadLetrasDeCadena.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="43Cabecerasnewmain.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="44Ficheros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="45FibonacciRecursividad.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="46FibonacciRecursividad2.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="4Mayorde4NumerosFuncionIF.c" ex="false" tool="0" flavor2="0">
       </item>

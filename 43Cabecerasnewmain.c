@@ -11,7 +11,7 @@
 
 int main() {
 
-    int a=3, b=2, c;
+    int a=100, b=36, c;
     float area = 0;
     char inicial; 
     

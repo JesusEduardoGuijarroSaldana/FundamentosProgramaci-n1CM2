@@ -1,0 +1,4 @@
+Número 1:  55
+Número 2:  23
+Número 3:  69
+Media de los números:  49.00
