@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/44Ficheros.o
+	${OBJECTDIR}/48TorresHanoiRecursividad.o
 
 
 # C Compiler Flags
@@ -62,10 +62,10 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programaci_n.exe: ${OB
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programaci_n ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/44Ficheros.o: 44Ficheros.c 
+${OBJECTDIR}/48TorresHanoiRecursividad.o: 48TorresHanoiRecursividad.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/44Ficheros.o 44Ficheros.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/48TorresHanoiRecursividad.o 48TorresHanoiRecursividad.c
 
 # Subprojects
 .build-subprojects:

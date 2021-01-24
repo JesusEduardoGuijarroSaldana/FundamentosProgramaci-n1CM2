@@ -75,6 +75,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/44Ficheros.o \
 	${OBJECTDIR}/45FibonacciRecursividad.o \
 	${OBJECTDIR}/46FibonacciRecursividad2.o \
+	${OBJECTDIR}/47FactorialRecursividad.o \
+	${OBJECTDIR}/48TorresHanoiRecursividad.o \
 	${OBJECTDIR}/4Mayorde4NumerosFuncionIF.o \
 	${OBJECTDIR}/5SerieFibonacciFuncionWhile.o \
 	${OBJECTDIR}/6Tablas1al10While.o \
@@ -306,6 +308,16 @@ ${OBJECTDIR}/46FibonacciRecursividad2.o: 46FibonacciRecursividad2.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/46FibonacciRecursividad2.o 46FibonacciRecursividad2.c
+
+${OBJECTDIR}/47FactorialRecursividad.o: 47FactorialRecursividad.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/47FactorialRecursividad.o 47FactorialRecursividad.c
+
+${OBJECTDIR}/48TorresHanoiRecursividad.o: 48TorresHanoiRecursividad.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/48TorresHanoiRecursividad.o 48TorresHanoiRecursividad.c
 
 ${OBJECTDIR}/4Mayorde4NumerosFuncionIF.o: 4Mayorde4NumerosFuncionIF.c 
 	${MKDIR} -p ${OBJECTDIR}

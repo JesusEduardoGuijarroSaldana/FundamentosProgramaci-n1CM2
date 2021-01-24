@@ -53,6 +53,8 @@
       <itemPath>44Ficheros.c</itemPath>
       <itemPath>45FibonacciRecursividad.c</itemPath>
       <itemPath>46FibonacciRecursividad2.c</itemPath>
+      <itemPath>47FactorialRecursividad.c</itemPath>
+      <itemPath>48TorresHanoiRecursividad.c</itemPath>
       <itemPath>4Mayorde4NumerosFuncionIF.c</itemPath>
       <itemPath>5SerieFibonacciFuncionWhile.c</itemPath>
       <itemPath>6Tablas1al10While.c</itemPath>
@@ -82,7 +84,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="44Ficheros.c" ex="false" tool="0" flavor2="0">
+      <item path="48TorresHanoiRecursividad.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="funciones2.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -213,6 +215,10 @@
       <item path="45FibonacciRecursividad.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="46FibonacciRecursividad2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="47FactorialRecursividad.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="48TorresHanoiRecursividad.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="4Mayorde4NumerosFuncionIF.c" ex="false" tool="0" flavor2="0">
       </item>
